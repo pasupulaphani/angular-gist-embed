@@ -17,4 +17,13 @@ describe("gistEmbed", function() {
             expect(service.init).toBeDefined();
         });
     });
+
+    describe("calling init:", function() {
+
+        it("should return a promise", function () {
+            
+            var promise = service.init();
+            expect(promise.then).toBeDefined();
+        });
+    });
 });
