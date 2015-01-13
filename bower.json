@@ -13,7 +13,8 @@
         "gist",
         "github",
         "embed",
-        "angular"
+        "angular",
+        "angularjs"
     ],
     "ignore": [
         "**/.*",
