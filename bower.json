@@ -8,7 +8,7 @@
     ],
     "license": "Apache",
     "description": "",
-    "keywords": [],
+    "keywords": ['gist-embed', 'gist', 'github', 'embed', 'angular'],
     "ignore": [
         "**/.*",
         "node_modules",
