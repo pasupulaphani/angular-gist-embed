@@ -3,7 +3,7 @@
 // Set the jasmine fixture path
 // jasmine.getFixtures().fixturesPath = 'base/';
 
-describe('angular-gist-embed', function() {
+describe('gist-embed', function() {
 
     var module;
     var dependencies;
@@ -16,25 +16,25 @@ describe('angular-gist-embed', function() {
     beforeEach(function() {
 
         // Get module
-        module = angular.module('angular-gist-embed');
+        module = angular.module('gist-embed');
         dependencies = module.requires;
     });
 
     it('should load config module', function() {
-        expect(hasModule('angular-gist-embed.config')).toBeTruthy();
+        expect(hasModule('gist-embed.config')).toBeTruthy();
     });
 
     
 
     
     it('should load directives module', function() {
-        expect(hasModule('angular-gist-embed.directives')).toBeTruthy();
+        expect(hasModule('gist-embed.directives')).toBeTruthy();
     });
     
 
     
     it('should load services module', function() {
-        expect(hasModule('angular-gist-embed.services')).toBeTruthy();
+        expect(hasModule('gist-embed.services')).toBeTruthy();
     });
     
 

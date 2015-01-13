@@ -5,21 +5,21 @@
 // before all nested files are concatenated by Grunt
 
 // Config
-angular.module('angular-gist-embed.config', [])
-    .value('angular-gist-embed.config', {
+angular.module('gist-embed.config', [])
+    .value('gist-embed.config', {
         debug: true
     });
 
 // Modules
-angular.module('angular-gist-embed.directives', []);
-angular.module('angular-gist-embed.services', []);
-angular.module('angular-gist-embed',
+angular.module('gist-embed.directives', []);
+angular.module('gist-embed.services', []);
+angular.module('gist-embed',
     [
-        'angular-gist-embed.config',
-        'angular-gist-embed.directives',
-        'angular-gist-embed.services'
+        'gist-embed.config',
+        'gist-embed.directives',
+        'gist-embed.services'
     ]);
-angular.module('socialsharing.services')
+angular.module('gist-embed.services')
     .service(
         'gistEmbed', ['$document', '$q', '$timeout', function($document, $q, $timeout) {
 

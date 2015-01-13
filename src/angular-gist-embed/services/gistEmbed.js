@@ -1,4 +1,4 @@
-angular.module('socialsharing.services')
+angular.module('gist-embed.services')
     .service(
         'gistEmbed', ['$document', '$q', '$timeout', function($document, $q, $timeout) {
 

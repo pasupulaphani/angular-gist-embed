@@ -75,7 +75,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-karma');
 
-    grunt.registerTask('default', ['jshint:beforeConcat', 'concat', 'jshint:afterConcat', 'uglify']);
+    grunt.registerTask('default', ['jshint:beforeConcat', 'concat', 'jshint:afterConcat', 'karma', 'uglify']);
     grunt.registerTask('livereload', ['default', 'watch']);
-
+    grunt.registerTask('test', ['karma']);
 };
