@@ -23,7 +23,7 @@ module.exports = function(config) {
         ],
 
         preprocessors: {
-            'dist/angular-socialsharing.js': 'coverage'
+            'dist/angular-gist-embed.js': 'coverage'
         },
 
         // list of files to exclude
