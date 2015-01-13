@@ -2,6 +2,23 @@
 
 Angular Gist Embed
 =========
+Getting Started
+-----
+Install the library through bower.
+```js
+bower install angular-gist-embed
+```
+
+Add it to your app dependency
+```js
+angular.module('myModule',['gist-embed'])
+```
+
+That's it
+
+## Usage
+
+Variants of usage: [http://blairvanderhoof.com](http://blairvanderhoof.com/gist-embed/)
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/pasupulaphani/angular-gist-embed/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
