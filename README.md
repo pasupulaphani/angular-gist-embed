@@ -2,6 +2,11 @@
 
 Angular Gist Embed
 =========
+
+Demo
+------
+[Check it out](http://embed.plnkr.co/aTr1jWrxbX9N9d6H2UFo/preview)
+
 Getting Started
 -----
 Install the library through bower.
@@ -16,19 +21,46 @@ angular.module('myModule',['gist-embed'])
 
 That's it
 
-## Usage
+Usage
+------
 
 Variants of usage: [http://blairvanderhoof.com](http://blairvanderhoof.com/gist-embed/)
 
-## Contributing
+How it works
+------
+This loads blairvanderhoof [gist-embed](https://github.com/blairvanderhoof/gist-embed) library asynchronously to your page.
 
+This depends on jquery library.
+
+It just works when you include ```<code data-gist-id="5457595"></code>``` in your html/templates/bindHtml
+
+If you need to recompile binded html, add directive as attribute ```compile-gist-embed``` to the element.
+
+```html
+<div compile-gist-embed ng-bind-html="post.body"></div>
+```
+
+Examples
+------
+See http://blairvanderhoof.com/gist-embed/ for all possible ways to use gist-embed:
+
+- Including a single gist
+- Including individual files from a gist
+- Including specific line numbers from a gist
+- Removing all line numbers from a gist
+- Removing the footer from a gist
+- Highlight lines from a gist
+
+Contributing
+------
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
 
-## Locations
+Locations
+------
 - http://ngmodules.org/modules/angular-gist-embed
 - http://pasupulaphani.github.io/angular-gist-embed/#/
 - http://bower.io/search/?q=angular-gist-embed
