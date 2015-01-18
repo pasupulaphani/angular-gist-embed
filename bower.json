@@ -7,8 +7,15 @@
         "pasupulaphani <pasupulaphani@gmail.com>"
     ],
     "license": "Apache",
-    "description": "",
-    "keywords": [],
+    "description": "Github gist embedding for your website in angular",
+    "keywords": [
+        "gist-embed",
+        "gist",
+        "github",
+        "embed",
+        "angular",
+        "angularjs"
+    ],
     "ignore": [
         "**/.*",
         "node_modules",
