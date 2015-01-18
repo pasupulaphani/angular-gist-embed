@@ -20,5 +20,19 @@ That's it
 
 Variants of usage: [http://blairvanderhoof.com](http://blairvanderhoof.com/gist-embed/)
 
+## Contributing
+
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
+
+## Locations
+- http://ngmodules.org/modules/angular-gist-embed
+- http://pasupulaphani.github.io/angular-gist-embed/#/
+- http://bower.io/search/?q=angular-gist-embed
+
+
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/pasupulaphani/angular-gist-embed/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
