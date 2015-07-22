@@ -2,7 +2,7 @@ angular.module('gist-embed.services')
     .service(
         'gistEmbed', ['$document', '$q', '$timeout', function($document, $q, $timeout) {
 
-            var libUrl = '//cdnjs.cloudflare.com/ajax/libs/gist-embed/2.0/gist-embed.min.js';
+            var libUrl = '//cdnjs.cloudflare.com/ajax/libs/gist-embed/2.2/gist-embed.min.js';
 
             var loadSdkAsync = function(src) {
                 var deferred = $q.defer();
