@@ -1,6 +1,6 @@
 {
   "name": "angular-gist-embed",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "./dist/angular-gist-embed.js",
   "homepage": "https://github.com/pasupulaphani/angular-gist-embed",
   "authors": [
