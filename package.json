@@ -1,6 +1,6 @@
 {
   "name": "angular-gist-embed",
-  "version": "0.0.1",
+  "version": "0.0.6",
   "dependencies": {},
   "devDependencies": {
     "connect-livereload": "~0.4.0",
@@ -39,6 +39,29 @@
   },
   "scripts": {
     "preinstall": "npm i -g grunt-cli bower karma-cli codeclimate-test-reporter underscore-cli",
-    "test": "./node_modules/.bin/karma start karma-unit.conf.js --single-run --browsers PhantomJS,Firefox"
-  }
+    "test": "karma start karma-unit.conf.js --single-run --browsers PhantomJS,Firefox"
+  },
+  "description": "[![Build Status](https://secure.travis-ci.org/pasupulaphani/angular-gist-embed.png?branch=master)](http://travis-ci.org/pasupulaphani/angular-gist-embed) [![npm version](http://img.shields.io/npm/v/angular-gist-embed.svg)](https://npmjs.org/package/angular-gist-embed) [![bower version](http://img.shields.io/bower/v/angular-gist-embed.svg)](https://npmjs.org/package/angular-gist-embed) [![Code Climate](https://codeclimate.com/github/pasupulaphani/angular-gist-embed/badges/gpa.svg)](https://codeclimate.com/github/pasupulaphani/angular-gist-embed) [![Test Coverage](https://codeclimate.com/github/pasupulaphani/angular-gist-embed/badges/coverage.svg)](https://codeclimate.com/github/pasupulaphani/angular-gist-embed)",
+  "main": "./dist/angular-gist-embed.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pasupulaphani/angular-gist-embed.git"
+  },
+  "keywords": [
+    "gist-embed",
+    "gist",
+    "github",
+    "embed",
+    "angular",
+    "angularjs"
+  ],
+  "author": "pasupulaphani@gmail.com",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/pasupulaphani/angular-gist-embed/issues"
+  },
+  "homepage": "https://github.com/pasupulaphani/angular-gist-embed#readme"
 }

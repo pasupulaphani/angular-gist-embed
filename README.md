@@ -1,4 +1,8 @@
-[![Build Status](https://secure.travis-ci.org/pasupulaphani/angular-gist-embed.png?branch=master)](http://travis-ci.org/pasupulaphani/angular-gist-embed) [![Bower version](https://badge.fury.io/bo/angular-gist-embed.svg)](http://badge.fury.io/bo/angular-gist-embed) [![Code Climate](https://codeclimate.com/github/pasupulaphani/angular-gist-embed/badges/gpa.svg)](https://codeclimate.com/github/pasupulaphani/angular-gist-embed) [![Test Coverage](https://codeclimate.com/github/pasupulaphani/angular-gist-embed/badges/coverage.svg)](https://codeclimate.com/github/pasupulaphani/angular-gist-embed)
+[![Build Status](https://secure.travis-ci.org/pasupulaphani/angular-gist-embed.png?branch=master)](http://travis-ci.org/pasupulaphani/angular-gist-embed)
+[![npm version](http://img.shields.io/npm/v/angular-gist-embed.svg)](https://npmjs.org/package/angular-gist-embed)
+[![bower version](http://img.shields.io/bower/v/angular-gist-embed.svg)](https://npmjs.org/package/angular-gist-embed)
+[![Code Climate](https://codeclimate.com/github/pasupulaphani/angular-gist-embed/badges/gpa.svg)](https://codeclimate.com/github/pasupulaphani/angular-gist-embed)
+[![Test Coverage](https://codeclimate.com/github/pasupulaphani/angular-gist-embed/badges/coverage.svg)](https://codeclimate.com/github/pasupulaphani/angular-gist-embed)
 
 Angular Gist Embed
 =========
@@ -9,7 +13,7 @@ Demo
 
 Getting Started
 -----
-Install the library through bower.
+Install the library through bower or npm.
 ```js
 bower install angular-gist-embed
 ```
@@ -64,5 +68,3 @@ Locations
 - http://ngmodules.org/modules/angular-gist-embed
 - http://pasupulaphani.github.io/angular-gist-embed/#/
 - http://bower.io/search/?q=angular-gist-embed
-
-
